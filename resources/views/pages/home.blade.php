@@ -61,14 +61,14 @@
         </div>
     </div>
 
-    <!-- Statistics (Optional - can be implemented later) -->
+    <!-- Statistics -->
     <div class="row mt-4">
         <div class="col-md-4 mb-3">
             <div class="card border-primary">
                 <div class="card-body text-center">
                     <h3 class="text-primary mb-0">
                         <i class="bi bi-book me-2"></i>
-                        {{ 0 }} {{-- Will be replaced with actual count --}}
+                        {{ $studyProgramCount }}
                     </h3>
                     <p class="text-muted mb-0">Program Studi</p>
                 </div>
@@ -79,7 +79,7 @@
                 <div class="card-body text-center">
                     <h3 class="text-success mb-0">
                         <i class="bi bi-people me-2"></i>
-                        {{ 0 }} {{-- Will be replaced with actual count --}}
+                        {{ $studentCount }}
                     </h3>
                     <p class="text-muted mb-0">Mahasiswa</p>
                 </div>
@@ -90,7 +90,7 @@
                 <div class="card-body text-center">
                     <h3 class="text-info mb-0">
                         <i class="bi bi-journal-text me-2"></i>
-                        {{ 0 }} {{-- Will be replaced with actual count --}}
+                        {{ $subjectCount }}
                     </h3>
                     <p class="text-muted mb-0">Mata Kuliah</p>
                 </div>
